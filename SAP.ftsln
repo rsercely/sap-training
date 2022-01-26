@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.1.3.0-UFT_2021_GA
+Project("") = "getMaterials", "getMaterials\Test.tsp", "48B7A663-97AD-4474-84DC-EB6519B4C85B"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\demo\Documents\UFT One\sap-training\getMaterials\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+		BaselineId = 
+	EndProjectSection
+EndProject
+Project("") = "GUI VA01 with param", "GUI VA01 with param\Test.tsp", "EEC526CA-F964-45A6-A40F-B306C2A00904"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\demo\Documents\UFT One\sap-training\GUI VA01 with param\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+		BaselineId = 
+	EndProjectSection
+EndProject
+Project("") = "GUI VA01 with", "GUI VA01 with\Test.tsp", "A8FC0623-7262-46D5-8A50-4B863CA60EC2"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\demo\Documents\UFT One\sap-training\GUI VA01 with\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+		BaselineId = 
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		48B7A663-97AD-4474-84DC-EB6519B4C85B.Debug|Any CPU.Build.0 = Debug|Any CPU
+		48B7A663-97AD-4474-84DC-EB6519B4C85B.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		48B7A663-97AD-4474-84DC-EB6519B4C85B.Release|Any CPU.Build.0 = Release|Any CPU
+		48B7A663-97AD-4474-84DC-EB6519B4C85B.Release|Any CPU.ActiveCfg = Release|Any CPU
+		EEC526CA-F964-45A6-A40F-B306C2A00904.Debug|Any CPU.Build.0 = Debug|Any CPU
+		EEC526CA-F964-45A6-A40F-B306C2A00904.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		EEC526CA-F964-45A6-A40F-B306C2A00904.Release|Any CPU.Build.0 = Release|Any CPU
+		EEC526CA-F964-45A6-A40F-B306C2A00904.Release|Any CPU.ActiveCfg = Release|Any CPU
+		A8FC0623-7262-46D5-8A50-4B863CA60EC2.Debug|Any CPU.Build.0 = Debug|Any CPU
+		A8FC0623-7262-46D5-8A50-4B863CA60EC2.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		A8FC0623-7262-46D5-8A50-4B863CA60EC2.Release|Any CPU.Build.0 = Release|Any CPU
+		A8FC0623-7262-46D5-8A50-4B863CA60EC2.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal
