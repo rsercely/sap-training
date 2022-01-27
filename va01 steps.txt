@@ -1,0 +1,22 @@
+mm60 look up materials
+ovx5 sales org
+
+2141 - not defined for sales org, dist channel
+2144 - not table t184
+
+
+SAPGuiEdit("*Order Type").Set "OR"
+SAPGuiEdit("Sales Organization").Set "1710"
+SAPGuiEdit("Distribution Channel").Set "10"
+SAPGuiEdit("Division").Set "00"
+SAPGuiEdit("Division").SetFocus
+SendKey ENTER
+SAPGuiEdit("Sold-To Party").Set " EWM17-CU02 "
+SAPGuiEdit("Ship-To Party").Set " EWM17-CU02 "
+SAPGuiEdit("Cust. Reference").Set " 450000019998 "
+SAPGuiEdit("Cust. Ref. Date").Set "11/02/2021"
+SAPGuiTable("All Items").SetCellData 1,"Item","10"
+SAPGuiTable("All Items").SetCellData 1,"Material"," EWMS4-01 "
+SAPGuiTable("All Items").SetCellData 1,"Order Quantity","1"
+SAPGuiTable("All Items").SetCellData 1,"Un","PC"
+SendKey F11
